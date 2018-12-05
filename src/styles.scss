@@ -1,0 +1,7 @@
+@mixin yoba {
+  background-color: #ffaabb;
+}
+
+.yoba {
+  @include yoba;
+}
