@@ -12,5 +12,5 @@ const observable2 = Observable.create(obs => {
     obs.next('four');
     obs.next('three');
 });
-
+ 
 combineLatest(observable1, observable2).subscribe((x) => { console.log(x) });
