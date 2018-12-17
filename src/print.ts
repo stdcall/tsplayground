@@ -1,1 +1,4 @@
-console.log('called from print.ts!');
+import { benchmark } from './utils';
+
+
+

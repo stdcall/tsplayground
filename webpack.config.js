@@ -5,6 +5,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
+    polyfills: './polyfills.ts',
     app: './src/app.ts',
     print: './src/print.ts'
   },
