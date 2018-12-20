@@ -25,4 +25,4 @@ const observable2 = Observable.create(obs => {
     setTimeout(x => { obs.next('two'), obs.complete() }, 2000);
 });
 
-//combineLatest(observable1, observable2).subscribe((x) => { console.log(`${x[0]}:${x[1]}`) });
+zip(observable1, observable2).subscribe((x) => { console.log(`${x[0]}:${x[1]}`) });
