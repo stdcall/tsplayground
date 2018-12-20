@@ -10,7 +10,6 @@ let dates = benchmark('nu eba', () => {
     return dates;
 });
 
-
 const observable1 = Observable.create(observer => {
     observer.next(5);
     observer.next(4);
