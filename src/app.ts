@@ -1,3 +1,4 @@
+import { benchmark } from './utils';
 import { Observable, of, combineLatest, zip } from 'rxjs';
 import { v } from './print';
 

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "module": "es2015",
     "moduleResolution": "node",
@@ -15,3 +16,24 @@
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }
+=======
+    "compilerOptions": {
+        "module": "es2015",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "target": "es2018",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "outDir": "dist",
+        "baseUrl": "./src",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "importHelpers": true,
+        "lib": ["es2018", "dom"]
+    },
+    "include": [
+        "src/**/*.ts"
+    ]    
+}
+>>>>>>> fbfd11e814bcd2015ba7bb7253fc46fe686a0631
