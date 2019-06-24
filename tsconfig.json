@@ -1,21 +1,17 @@
 {
-    "compilerOptions": {
-        "module": "es2015",
-        "moduleResolution": "node",
-        "sourceMap": true,
-        "target": "es2018",
-        "typeRoots": [
-            "node_modules/@types"
-        ],
-        "outDir": "dist",
-        "baseUrl": "./src",
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
-    },
-    "include": [
-        "src/**/*.ts"
-    ],
-    "exclude": [
-        "node_modules"
-    ],
+  "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es2018",
+    "typeRoots": ["node_modules/@types"],
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": true,
+    "plugins": [{ "name": "typescript-tslint-plugin" }]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
 }

@@ -1,1 +1,3 @@
-console.log('called from print.ts!');
+export function v() {
+  console.log('yoooooba');
+}

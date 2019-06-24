@@ -1,0 +1,17 @@
+{
+    "options": {
+      "merge-default-rules": true
+    },
+    "files": {
+      "ignore": "node_modules/**/*.*"
+    },
+    "rules": {
+      "leading-zero": 0,
+      "nesting-depth": 0,
+      "no-css-comments": 0,
+      "single-line-per-selector": 0,
+      "emptyRules": 0,
+      "property-sort-order": 0
+    }
+  }
+  

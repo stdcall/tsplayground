@@ -6,7 +6,10 @@ module.exports = {
   mode: 'development',
   entry: {
     app: './src/app.ts',
-    print: './src/print.ts'
+  },
+  devtool: 'inline-source-map',
+  devServer: {
+    contentBase: './dist'
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
@@ -17,10 +20,6 @@ module.exports = {
       pageHeader: 'Playground'
     })
   ],
-  devtool: 'inline-source-map',
-  devServer: {
-    contentBase: './dist'
-  },
   module: {
     rules: [
       {
